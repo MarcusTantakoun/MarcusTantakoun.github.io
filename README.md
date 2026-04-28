@@ -1,2 +1,2 @@
 # MarcusTantakoun.github.io
-Personal website.
+Repo for my personal website.

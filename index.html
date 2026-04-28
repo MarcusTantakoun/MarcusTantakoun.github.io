@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcus Tantakoun</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">~/mtantakoun</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li class="dropdown">
+          <a href="#projects" class="dropbtn">Projects <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-content" id="projects-dropdown"></div>
+        </li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#now">Now</a></li>
+      </ul>
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-container">
+      <div class="profile-pic">
+        <img src="images/profilepic.jpeg" alt="Marcus Tantakoun">
+      </div>
+      <h1>Marcus Tantakoun</h1>
+      <p class="hero-title">researcher / developer / lost </p>
+      <div class="hero-contacts">
+        <a href="20mt1@queensu.ca" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/MarcusTantakoun" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://scholar.google.ca/citations?user=WmVgcIgAAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/marcus-tantakoun/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="hero-extras">
+    <div class="hero-block">
+      <h3><span class="hash">#</span>Interests</h3>
+      <ul>
+        <li>Machine Learning & AI</li>
+        <li>Large Language Models</li>
+        <li>Automated Planning</li>
+        <li>Just having a good time, man.</li>
+      </ul>
+    </div>
+    <div class="hero-block">
+      <h3><span class="hash">#</span>Education</h3>
+      <ul>
+        <li><strong>Doctor of Philosophy (PhD), Computing</strong> — Queen's University (2024–2025)</li>
+        <li><strong>Master of Science (MSc), Computing</strong> — Queen's University (2024–2025)</li>
+        <li><strong>Bachelor of Computing (BCPH)</strong> — Queen's University (2020–2024)</li>
+      </ul>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="section-container reveal">
+      <h2><span class="hash">#</span>About</h2>
+      <p>Oh hi there! Welcome to my personal website. I am Marcus Tantakoun, a researcher and developer passionate about building things that matter. I am currently a second-year PhD computing student, co-supervised by Professors Christian Muise and Xiaodan Zhu, at Queen’s University; previously completed my undergrad at Queen’s with a Bachelor’s of Computing (BCPH) in Artificial Intelligence. My research is interdisciplinary between NLP and Automated Planning. Particularly, involving the exploration of Large Language Models' (LLMs) powerful generative capabilities to complement Automated Planning systems. Outside of academics, I am an active participant in Kingston’s local music scene with a primary focus on playing bass and occasional dabbling in keys and guitar.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-container reveal">
+      <h2><span class="hash">#</span>Projects</h2>
+      <div class="terminal-bar">
+        <span class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </span>
+        projects — zsh
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="section-container reveal">
+      <h2><span class="hash">#</span>Publications</h2>
+      <ul class="publication-list">
+
+        <li class="pub-item">
+          <span class="pub-authors"><strong>M. Tantakoun</strong>, C. Muise, X. Zhu</span>
+          <span class="pub-title">"LLMs as planning formalizers: A survey for leveraging large language models to construct automated planning models"</span>
+          <span class="pub-venue"><em>Findings of the Association for Computational Linguistics: ACL</em>, 2025.</span>
+          <a href="https://aclanthology.org/2025.findings-acl.1291.pdf" target="_blank" class="pub-link">PDF</a>
+        </li>
+
+        <li class="pub-item">
+          <span class="pub-authors"><strong>M. Tantakoun</strong>, C. Muise, X. Zhu</span>
+          <span class="pub-title">"L2P: A Python Toolkit for Automated PDDL Model Generation with Large Language Models"</span>
+          <span class="pub-venue"><em>Workshop on Planning in the Era of LLMs (LM4PLAN): AAAI</em>, 2025.</span>
+          <a href="https://plan-fm.github.io/2025/Paper_L2P.pdf" target="_blank" class="pub-link">PDF</a>
+        </li>
+
+        <li class="pub-item">
+          <span class="pub-authors"><strong>M. Tantakoun</strong>, C. Muise, X. Zhu</span>
+          <span class="pub-title">"Fixmyplan: Leveraging large language models to fix ill-defined models and incorrect plans"</span>
+          <span class="pub-venue"><em>Workshop on Planning in the Era of LLMs (LM4PLAN): AAAI</em>, 2025.</span>
+          <a href="https://plan-fm.github.io/2025/Paper_fixmyplan.pdf" target="_blank" class="pub-link">PDF</a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section id="now">
+    <div class="section-container reveal">
+      <h2><span class="hash">#</span>What I Am Up To Now</h2>
+      <div class="now-content">
+        <p>Here is what I am currently working on / doing:</p>
+        <ul>
+          <li>Presenting a tutorial + system demo + workshops at ICAPS 2026, Dublin, Ireland (June 27-July 2) 🇮🇪</li>
+          <li>Travelling to Thailand in October 2026 🇹🇭</li>
+          <li>Lerne gerade Deutsch 🇩🇪</li>
+        </ul>
+        <p class="now-updated"><em>Last updated: April 2026</em></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2026 Marcus Tantakoun. Please hire me.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
